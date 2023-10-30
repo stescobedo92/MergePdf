@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergePdf", "MergePdf\MergePdf.csproj", "{18163089-11B9-4382-8D2C-70BF4411D79A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergePdfTest", "MergePdfTest\MergePdfTest.csproj", "{550A8AD7-1668-4D24-BE88-AB053FAF7889}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{18163089-11B9-4382-8D2C-70BF4411D79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18163089-11B9-4382-8D2C-70BF4411D79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18163089-11B9-4382-8D2C-70BF4411D79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550A8AD7-1668-4D24-BE88-AB053FAF7889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550A8AD7-1668-4D24-BE88-AB053FAF7889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550A8AD7-1668-4D24-BE88-AB053FAF7889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550A8AD7-1668-4D24-BE88-AB053FAF7889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
