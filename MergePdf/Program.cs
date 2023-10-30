@@ -21,3 +21,15 @@ using (FileStream fs = new FileStream(path: outputPath, FileMode.Create))
 
     document.Close();
 }
+
+Console.WriteLine("Documents successfully combined: " + outputPath);
+static void AddPdfToDocument(string pdfPath, PdfSmartCopy copy)
+{
+    using (PdfReader reader = new PdfReader(pdfPath))
+    {
+        for (int i = 1; i <= reader.NumberOfPages; i++)
+        {
+            copy.AddPage(copy.GetImportedPage(reader, i));
+        }
+    }
+}
