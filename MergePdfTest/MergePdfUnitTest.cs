@@ -8,8 +8,8 @@ namespace MergePdfTest
         [Test]
         public void Test_MergeTwoPdfs_Success()
         {            
-            string pdf1Path = "path_to_pdf1.pdf";
-            string pdf2Path = "path_to_pdf2.pdf";
+            string pdf1Path = "vs-1.pdf";
+            string pdf2Path = "vs-2.pdf";
             string outputPath = "output.pdf";
 
             MergePdfUtil.MergeAndSavePdf(pdf1Path, pdf2Path, outputPath);
