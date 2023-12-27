@@ -31,4 +31,4 @@ jobs:
       run: dotnet publish ./MergePdf.sln --configuration Release --no-build
     
     - name: Test
-      run: dotnet test ./MergePdf.sln --no-build --verbosity normal
+      run: dotnet test ./MergePdf.sln --verbosity normal
